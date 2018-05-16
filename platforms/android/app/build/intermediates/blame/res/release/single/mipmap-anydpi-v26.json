@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\windluo\\myproject\\myweex\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26\\ic_launcher_round.xml",
+        "source": "C:\\windluo\\myproject\\myweex\\platforms\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\windluo\\myproject\\myweex\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26\\ic_launcher.xml",
+        "source": "C:\\windluo\\myproject\\myweex\\platforms\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]

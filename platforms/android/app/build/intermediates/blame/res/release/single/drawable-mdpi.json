@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\windluo\\myproject\\myweex\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\ic_launcher_background.png",
+        "source": "C:\\windluo\\myproject\\myweex\\platforms\\android\\app\\build\\generated\\res\\pngs\\release\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\windluo\\myproject\\myweex\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\ic_action_scan.png",
+        "source": "C:\\windluo\\myproject\\myweex\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_scan.png"
+    },
+    {
+        "merged": "C:\\windluo\\myproject\\myweex\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\ic_action_refresh.png",
+        "source": "C:\\windluo\\myproject\\myweex\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_refresh.png"
+    }
+]
