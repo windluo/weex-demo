@@ -1,11 +1,11 @@
 <template>
-    <list class="list" @loadmore="fetch" loadmoreoffset="10">
-      <cell class="cell" v-for="(num, index) in lists" :key="index">
-        <div class="panel">
-          <text class="text">{{num}}</text>
-        </div>
-      </cell>
-    </list>
+  <list class="list" @loadmore="fetch" loadmoreoffset="10">
+    <cell class="cell" v-for="(num, index) in lists" :key="index">
+      <div class="panel">
+        <text class="text">{{num}}</text>
+      </div>
+    </cell>
+  </list>
 </template>
 <script>
   const modal = weex.requireModule('modal')
@@ -33,10 +33,6 @@
 </script>
 
 <style scoped>
-  .list-container{
-    margin-top: 10px;
-    overflow: hidden;
-  }
   .panel {
     width: 600px;
     height: 250px;

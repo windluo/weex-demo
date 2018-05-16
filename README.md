@@ -15,7 +15,7 @@
 >
 > 安装过程会把需要的SDK、模拟器都装上，无需操心。
 >
-> Android Studio装好后，注意**不要升级！！！**会有弹框提示升级到3.*版本，千万不要乱升级！！！
+> Android Studio装好后，注意**不要升级！！！**会有弹框提示升级到3.x版本，千万不要乱升级！！！*不慎升级了又解决不了各种报错，把各种android目录文件删掉重装咯，环境变量可以不删*
 >
 > 之后的怎么打包生成apk、怎么改图标跟名字，网上一搜一大把。
 
@@ -37,11 +37,19 @@
 >
 > weex platform add android // 添加android代码
 >
+> weex platform remove android // 删除android代码
+>
 > npm run build // 打包vue项目
 >
 > weex run android //官方说是那么说，我实在没跑出什么结果来，弃用
 >
 > npm run pack:android  // 据说可以打包apk，没跑出来
+
+### 遇到的坑
+
+weex内置的组件不要乱嵌套，样式或错乱
+
+> list 组件外只能套一层div组件，不然样式会错乱
 
 ### 打包apk
 
